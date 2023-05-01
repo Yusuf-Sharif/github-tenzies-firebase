@@ -749,10 +749,7 @@ export default function App() {
                     
                     :
                 <main>
-                    {tenzies && <Confetti
-                        width={newWidth}
-                        height={height}
-                        />
+                    {tenzies && <Confetti/>
                     }
                     <h1 className="title">Tenzies</h1>
                     <p className="main--greeting">
