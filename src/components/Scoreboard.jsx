@@ -11,7 +11,17 @@ export default function Scoreboard(props) {
     // const playerStats = JSON.parse(localStorage.getItem("scores")) || []
     const playerStats = props.scores || []
 
+    // if there are any integers, skip over them 
+    const newPlayerStats = playerStats.map( stat => {
+        if ( typeof stat == "number") {
 
+        } else {
+            return stat
+        }
+    })
+
+    console.log("newPlayerStats:")
+    console.log(newPlayerStats)
 
 
 
