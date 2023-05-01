@@ -356,10 +356,10 @@ p.scoreboard--score-name {
     margin-top: -4px;
 } 
 
-.scoreboard--return-btn:active {
+/* .scoreboard--return-btn:active {
     width: 66px;
     margin-top: 14px;
-}
+} */
 
 /* Leaderboard Button */
 
@@ -418,10 +418,6 @@ p.scoreboard--score-name {
     .scoreboard--return-btn {
         width: 130px;
         background:rgba(0, 0, 0, 0);
-    }
-
-    .scoreboard--return-btn:active {
-        width: 130px;
     }
 }
 
