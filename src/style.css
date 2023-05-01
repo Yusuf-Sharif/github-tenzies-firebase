@@ -338,7 +338,7 @@ p.scoreboard--score-name {
 }
 
 .scoreboard--return-btn {
-    width: 70px;
+    width: 80px;
     transition: .3s;
     background:rgba(0, 0, 0, 0);
     border: none;
@@ -358,7 +358,7 @@ p.scoreboard--score-name {
 
 .scoreboard--return-btn:active {
     width: 66px;
-    margin-top: 4px;
+    margin-top: 14px;
 }
 
 /* Leaderboard Button */
