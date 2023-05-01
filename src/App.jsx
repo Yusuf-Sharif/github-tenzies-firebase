@@ -171,7 +171,7 @@ export default function App() {
 
         // React.useEffect( () => {
 
-        //     set(ref(database, 'scores'), scores); 
+    //  set(ref(database, 'scores'), [""]);   
 
         // }, [scores])
 
