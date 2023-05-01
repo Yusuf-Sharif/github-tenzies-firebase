@@ -5,7 +5,6 @@ export default function Score(props) {
         <div className="scoreboard--score">
             <p className="scoreboard--score-name">{props.name}</p>
             <p>{props.score}</p>
-            <hr />
         </div>
     )
 }
