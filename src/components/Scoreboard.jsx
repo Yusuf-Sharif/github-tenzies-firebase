@@ -13,12 +13,8 @@ export default function Scoreboard(props) {
 
     // if there are any integers, skip over them 
     const newPlayerStats = playerStats.map( stat => {
-        if ( typeof stat == "number") {
-
-        } else {
-            return stat
-        }
-    })
+        return typeof stat == "object"
+        })
 
     console.log("newPlayerStats:")
     console.log(newPlayerStats)
