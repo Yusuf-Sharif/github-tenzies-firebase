@@ -14,6 +14,8 @@ import { renderErrorMsg } from "./utils"
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set, child, get } from "firebase/database"
 
+import useWindowSize from 'react-use/lib/useWindowSize'
+
 
 
 // Feature - Scoreboard to show player with the fastest win.
@@ -24,6 +26,8 @@ import { getDatabase, ref, set, child, get } from "firebase/database"
     
 
 export default function App() {
+    const { width, height } = useWindowSize()
+
 
 
 
@@ -744,7 +748,11 @@ export default function App() {
                     
                     :
                 <main>
-                    {tenzies && <Confetti height="90%"/>}
+                    {tenzies && <Confetti
+                        width={width}
+                        height={height}
+                        />
+                    }
                     <h1 className="title">Tenzies</h1>
                     <p className="main--greeting">
                         Welcome,
