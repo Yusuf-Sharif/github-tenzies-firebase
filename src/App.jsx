@@ -718,6 +718,7 @@ export default function App() {
     
     return (
         <div>
+            {tenzies && <Confetti/>}
             {showLeaderboard ? 
                 <Scoreboard 
                     toggleLeaderboard={toggleLeaderboard}/>
@@ -749,8 +750,6 @@ export default function App() {
                     
                     :
                 <main>
-                    {tenzies && <Confetti/>
-                    }
                     <h1 className="title">Tenzies</h1>
                     <p className="main--greeting">
                         Welcome,
