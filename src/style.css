@@ -315,9 +315,9 @@ main {
 
 .scoreboard--scores-container {
     min-height: 40%;
-    max-height: 50%;
+    /* max-height: 50%; */
     margin-top: 30px;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .scoreboard--score {
@@ -346,6 +346,9 @@ p.scoreboard--score-name {
     background:rgba(0, 0, 0, 0);
     border: none;
     border-radius: 200px;
+
+
+
 }
 
 .scoreboard--return-btn img {
