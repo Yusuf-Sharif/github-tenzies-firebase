@@ -9,15 +9,12 @@ export default function Scoreboard(props) {
     
     // create an array to store localStorage scores 'playerStats'
     // const playerStats = JSON.parse(localStorage.getItem("scores")) || []
-    const playerStats = props.scores || []
 
     // if there are any integers, skip over them 
-    const newPlayerStats = playerStats.filter( stat => {
+    const playerStats = props.scores.filter( stat => {
         return typeof stat == "object"
         })
 
-    console.log("newPlayerStats:")
-    console.log(newPlayerStats)
 
 
 
