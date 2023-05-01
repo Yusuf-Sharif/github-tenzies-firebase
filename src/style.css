@@ -306,11 +306,13 @@ main {
 
 .scoreboard--wrapper h1 {
     margin-bottom: 0;
+    margin-top: -20px
 }
 
 .scoreboard--wrapper p {
     margin-top: 0;
     color: #3593FF;
+    margin-top: -20px
 }
 
 .scoreboard--scores-container {
