@@ -417,12 +417,12 @@ p.scoreboard--score-name {
 @media only screen and (max-width: 500px) {
 
     .scoreboard--return-btn {
-        width: 130px;
+        width: 100px;
         background:rgba(0, 0, 0, 0);
     }
 
     .scoreboard--return-btn:hover {
-        width: 130px;
+        width: 100px;
     } 
 }
 
