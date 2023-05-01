@@ -26,9 +26,9 @@ import useWindowSize from 'react-use/lib/useWindowSize'
     
 
 export default function App() {
-    const { width, height } = useWindowSize()
+    let { width, height } = useWindowSize()
 
-    console.log(width)
+    const newWidth = width
 
 
 
@@ -751,7 +751,7 @@ export default function App() {
                     :
                 <main>
                     {tenzies && <Confetti
-                        width={width}
+                        width={newWidth}
                         height={height}
                         />
                     }
