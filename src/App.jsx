@@ -28,6 +28,8 @@ import useWindowSize from 'react-use/lib/useWindowSize'
 export default function App() {
     const { width, height } = useWindowSize()
 
+    console.log(width)
+
 
 
 
