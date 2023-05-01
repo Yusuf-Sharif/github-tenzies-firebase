@@ -85,6 +85,9 @@ export default function App() {
 
 
    
+   // scores:"[{"name":"Yusuf","seconds":8},{"name":"Eesa","seconds":8},{"name":"Nadia","seconds":4},{"name":"Pokee boy","seconds":16}]"
+   
+   
     
     // Feature - Scoreboard to show player with the fastest win.
     
@@ -171,7 +174,7 @@ export default function App() {
 
         // React.useEffect( () => {
 
-    //  set(ref(database, 'scores'), [""]);   
+    //  set(ref(database, 'scores'), [{"name":"Yusuf","seconds":8},{"name":"Eesa","seconds":8},{"name":"Nadia","seconds":3},{"name":"Pokee boy","seconds":16}]);   
 
         // }, [scores])
 
