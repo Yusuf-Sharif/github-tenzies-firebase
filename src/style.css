@@ -416,7 +416,7 @@ p.scoreboard--score-name {
 @media only screen and (max-width: 500px) {
 
     .scoreboard--return-btn {
-        width: 180px;
+        width: 130px;
         background:rgba(0, 0, 0, 0);
     }
 }
