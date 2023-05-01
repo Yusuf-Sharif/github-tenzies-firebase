@@ -9,9 +9,11 @@ body {
     font-family: 'Karla', sans-serif;
     max-height: 100%;
     max-width: 100%;
-
-
 }
+
+body::-webkit-scrollbar{
+    display: none;
+  }
 
 main {
     background-color: #F5F5F5;
