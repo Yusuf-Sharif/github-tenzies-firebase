@@ -103,7 +103,10 @@ export default function App() {
             let data = snapshot.val()
             if (data) {
                 setScores(data)
-            }
+            } 
+                else {
+                    setScores([])
+                }
 
             setShowLeaderboard( prevState => !prevState)
 
