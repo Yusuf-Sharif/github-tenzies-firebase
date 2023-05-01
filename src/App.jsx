@@ -122,10 +122,7 @@ export default function App() {
 
         const [shouldUpdateScores, setShouldUpdateScores] = React.useState(false)
 
-        if (shouldUpdateScores) {
-            setShouldUpdateScores(false)
-            updateScores()
-        }
+       
 
         if (uploadScores) {
             set(ref(database, 'scores'), scores); 
@@ -454,6 +451,11 @@ export default function App() {
   } = useStopwatch({ autoStart: false });
 
     
+
+   if (shouldUpdateScores) {
+            setShouldUpdateScores(false)
+            updateScores()
+        }
 
     const [dice, setDice] = React.useState(allNewDice())
     const [tenzies, setTenzies] = React.useState(false)
