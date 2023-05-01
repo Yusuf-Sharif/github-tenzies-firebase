@@ -30,6 +30,8 @@ export default function App() {
 
     const newWidth = width
 
+    console.log(newWidth)
+
 
 
 
