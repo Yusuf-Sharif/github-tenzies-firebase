@@ -8,7 +8,8 @@ export default function Scoreboard(props) {
     const scoresElementsPublic = []
     
     // create an array to store localStorage scores 'playerStats'
-    const playerStats = JSON.parse(localStorage.getItem("scores")) || []
+    // const playerStats = JSON.parse(localStorage.getItem("scores")) || []
+    const playerStats = props.scores || []
 
 
 

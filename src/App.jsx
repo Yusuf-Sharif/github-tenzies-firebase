@@ -116,6 +116,7 @@ export default function App() {
         
     }
     
+
      
         // initialise a state variable's value to LS or an empty array (if LS doesnt exist)
         // const [scores, setScores] = React.useState( JSON.parse(localStorage.getItem("scores")) || [])
@@ -724,7 +725,9 @@ export default function App() {
             {tenzies && <Confetti/>}
             {showLeaderboard ? 
                 <Scoreboard 
-                    toggleLeaderboard={toggleLeaderboard}/>
+                    toggleLeaderboard={toggleLeaderboard}
+                    scores={scores}
+                />
                 :               
                 !userDetailsFound && showSignUpComponent == false ?
                 <Name 
