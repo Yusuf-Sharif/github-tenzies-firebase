@@ -353,7 +353,7 @@ p.scoreboard--score-name {
     cursor: pointer;
     width: 73px;
     transition: .3s;
-    margin-top: 14px;
+    margin-top: 11px;
 } 
 
 /* .scoreboard--return-btn:active {
