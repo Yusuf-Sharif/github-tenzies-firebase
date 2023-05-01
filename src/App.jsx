@@ -531,7 +531,7 @@ export default function App() {
                     
     
                     setScores( prevState => {
-                    
+                        
     
                         return [
                             ...prevState,
@@ -550,6 +550,8 @@ export default function App() {
 
                 console.log("Name match not found")
                 setScores( prevState => {
+                    console.log("updating scores via the else statement")
+
                     return [
                         ...prevState,
                         {name: user.name, seconds}
