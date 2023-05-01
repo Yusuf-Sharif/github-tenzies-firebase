@@ -413,6 +413,14 @@ p.scoreboard--score-name {
 
 
 /* Media queries */
+@media only screen and (max-width: 500px) {
+
+    .scoreboard--return-btn {
+        width: 180px;
+        background:rgba(0, 0, 0, 0);
+    }
+}
+
 
 @media only screen and (min-width: 500px) {
     .form-wrapper {
