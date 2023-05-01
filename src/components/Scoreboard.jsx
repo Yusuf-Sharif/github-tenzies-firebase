@@ -12,7 +12,7 @@ export default function Scoreboard(props) {
     const playerStats = props.scores || []
 
     // if there are any integers, skip over them 
-    const newPlayerStats = playerStats.map( stat => {
+    const newPlayerStats = playerStats.filter( stat => {
         return typeof stat == "object"
         })
 
