@@ -315,14 +315,15 @@ main {
 
 .scoreboard--scores-container {
     min-height: 40%;
+    max-height: 50%;
     margin-top: 30px;
-    min-width: 95%;
+    overflow: scroll;
 }
 
 .scoreboard--score {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    gap: 120px;
+    gap: 65px;
 }
 
 .scoreboard--score p {
