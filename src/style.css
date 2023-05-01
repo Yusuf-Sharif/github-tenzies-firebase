@@ -419,6 +419,10 @@ p.scoreboard--score-name {
         width: 130px;
         background:rgba(0, 0, 0, 0);
     }
+
+    .scoreboard--return-btn:hover {
+        width: 80px;
+    } 
 }
 
 
