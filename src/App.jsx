@@ -744,7 +744,7 @@ export default function App() {
                     
                     :
                 <main>
-                    {tenzies && <Confetti />}
+                    {tenzies && <Confetti height="90%"/>}
                     <h1 className="title">Tenzies</h1>
                     <p className="main--greeting">
                         Welcome,
